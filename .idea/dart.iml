@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/armstrong-numbers/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/armstrong-numbers/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/armstrong-numbers/build" />
+      <excludeFolder url="file://$MODULE_DIR$/beer-song/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/beer-song/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/beer-song/build" />
+      <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/build" />
+      <excludeFolder url="file://$MODULE_DIR$/hello-world/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/hello-world/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/hello-world/build" />
+      <excludeFolder url="file://$MODULE_DIR$/leap/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/leap/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/leap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/resistor-color-duo/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/resistor-color-duo/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/resistor-color-duo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/resistor-color/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/resistor-color/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/resistor-color/build" />
+      <excludeFolder url="file://$MODULE_DIR$/reverse-string/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/reverse-string/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/reverse-string/build" />
+      <excludeFolder url="file://$MODULE_DIR$/scrabble-score/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/scrabble-score/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/scrabble-score/build" />
+      <excludeFolder url="file://$MODULE_DIR$/secret-handshake/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/secret-handshake/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/secret-handshake/build" />
+      <excludeFolder url="file://$MODULE_DIR$/two-fer/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/two-fer/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/two-fer/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
