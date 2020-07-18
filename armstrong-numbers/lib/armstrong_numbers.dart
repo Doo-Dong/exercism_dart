@@ -1,15 +1,11 @@
 import 'dart:math';
 
 class ArmstrongNumbers {
-  bool isArmstrongNumber(int number) {
-    int prefix = 0;
-    int amount = '$number'.length;
+  bool isArmstrongNumber(int number) => _armstrong(number) == number;
 
-    prefix = '$number'.split('').fold<int>(
-        0,
-        (prefix, foldElement) =>
-            prefix + pow(int.parse(foldElement), amount).toInt());
-
-    return number == prefix;
-  }
+  num _armstrong(int number) => '$number'
+      .split('')
+      .map(int.parse)
+      .map((e) => pow(e, '$number'.length))
+      .fold(0, (prefix, foldElement) => prefix + foldElement);
 }
