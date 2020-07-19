@@ -24,6 +24,9 @@
       <excludeFolder url="file://$MODULE_DIR$/leap/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/leap/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/leap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/luhn/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/luhn/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/luhn/build" />
       <excludeFolder url="file://$MODULE_DIR$/resistor-color-duo/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/resistor-color-duo/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/resistor-color-duo/build" />
