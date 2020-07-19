@@ -12,6 +12,9 @@
       <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/build" />
+      <excludeFolder url="file://$MODULE_DIR$/difference-of-squares/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/difference-of-squares/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/difference-of-squares/build" />
       <excludeFolder url="file://$MODULE_DIR$/hello-world/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/hello-world/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/hello-world/build" />
