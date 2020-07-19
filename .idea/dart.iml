@@ -18,6 +18,9 @@
       <excludeFolder url="file://$MODULE_DIR$/hello-world/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/hello-world/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/hello-world/build" />
+      <excludeFolder url="file://$MODULE_DIR$/isogram/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/isogram/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/isogram/build" />
       <excludeFolder url="file://$MODULE_DIR$/leap/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/leap/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/leap/build" />
