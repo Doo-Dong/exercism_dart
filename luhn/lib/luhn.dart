@@ -1,26 +1,26 @@
+//stegrams's solution
+//https://exercism.io/tracks/dart/exercises/luhn/solutions/27224754983e42c2978c00852ff870d9
+
 class Luhn {
-  bool valid(String string) {
-    List<int> integer = string
-        .replaceAll(new RegExp(r'(\D+)'), '')
-        .split('')
-        .map(int.parse)
-        .toList();
-    int integerLength = integer.join('').toString().length;
+  List<int> trsl = [0, 2, 4, 6, 8, 1, 3, 5, 7, 9];
 
-    for (int i = integerLength; i < 0; i - 2) {
-      if (integer[i] * 2 > 9) {
-        integer[i] = (integer[i] * 2)
-            .toString()
-            .split('')
-            .map(int.parse)
-            .map((e) => e)
-            .fold(0, (a, b) => a + b);
-      } else {
-        integer[i] = integer[i] * 2;
-      }
-    }
-    print(integer);
+  MapEntry<int, int> intToLuhn(int idx, int n) =>
+      MapEntry(idx, idx.isEven ? n : trsl[n]);
 
-    return (integer.fold<int>(0, (a, b) => a + b) % 10 == 0);
+  bool valid(String t) {
+    String norma = t.replaceAll(' ', '');
+    bool err = norma.length < 2 || norma.contains(RegExp(r"\D"));
+    return !err &&
+        norma
+                    .split('')
+                    .reversed
+                    .map(int.parse)
+                    .toList()
+                    .asMap()
+                    .map(intToLuhn)
+                    .values
+                    .reduce((bf, c) => bf + c) %
+                10 ==
+            0;
   }
 }
