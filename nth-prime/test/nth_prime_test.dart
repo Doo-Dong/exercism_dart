@@ -15,20 +15,20 @@ void main() {
     test('second prime', () {
       final int result = nthPrime.prime(2);
       expect(result, equals(3));
-    }, );
+    }, skip: false);
 
     test('sixth prime', () {
       final int result = nthPrime.prime(6);
       expect(result, equals(13));
-    }, );
+    }, skip: false);
 
     test('big prime', () {
       final int result = nthPrime.prime(10001);
       expect(result, equals(104743));
-    }, );
+    }, skip: false);
 
     test('there is no zeroth prime', () {
       expect(() => nthPrime.prime(0), throwsA(noZerothPrime));
-    }, );
+    }, skip: true);
   });
 }
